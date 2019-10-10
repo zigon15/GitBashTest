@@ -21,7 +21,6 @@ Basically pulls latest commit from remote repo
 To make git track all new files
 `git add .`
 
-
 ## Push
 Make sure to add upstream branch for git to push to
 `git push --set-upstream <repo name> <branch>`
@@ -34,4 +33,4 @@ Commit changes to a branch branch: `git commit -m "Updated git commands"`
 
 ## Merge
 1. Checkout the branch you want to merge to. `git checkout <branch>`
-2. Pull the desired branch from the upstream repo. `git pull`
+2. Then merge `git merge <branch to merge>`
