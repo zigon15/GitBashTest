@@ -21,7 +21,6 @@ Basically pulls latest commit from remote repo
 To make git track all new files
 `git add .`
 
-
 ## Push
 Make sure to add upstream branch for git to push to
 `git push --set-upstream <repo name> <branch>`
