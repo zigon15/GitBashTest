@@ -10,10 +10,10 @@
 
 ### Remove Branch
 Delete Local Branch
-`git branch -d <branch name>`
+```git branch -d <branch name>```
 
 Delte Remote Branch
-`git push <remote_name> :<branch_name>`
+```git push <remote_name> :<branch_name>```
 
 ## Misc
 
