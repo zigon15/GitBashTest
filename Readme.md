@@ -11,11 +11,12 @@ Delete Local Branch command:`git branch -d <branch name>`
 
 Delte Remote Branch command: `git push <remote_name> :<branch_name>`
 
-## Misc
+## Fetch and Pull
 
 Different between `git pull` and `git fetch`
 >git pull is shorthand for git fetch followed by git merge FETCH_HEAD
 
+Basically pulls latest commit from remote repo
 
 To make git track all new files
 `git add .`
