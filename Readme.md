@@ -31,3 +31,4 @@ Push commit to remote repo
 
 ## Commit
 Commit changes to a branch branch: `git commit -m "Updated git commands"`
+x
