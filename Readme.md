@@ -27,3 +27,6 @@ Make sure to add upstream branch for git to push to
 
 Push commit to remote repo
 `git push`
+
+## Commit
+Commit changes to a branch branch: `git commit -m "Updated git commands"`
