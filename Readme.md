@@ -33,5 +33,5 @@ Push commit to remote repo
 Commit changes to a branch branch: `git commit -m "Updated git commands"`
 
 ## Merge
-1.Checkout the branch you want to merge to. `git checkout <branch>`
+1. Checkout the branch you want to merge to. `git checkout <branch>`
 2. Pull the desired branch from the upstream repo. `git pull`
