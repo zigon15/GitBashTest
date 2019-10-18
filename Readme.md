@@ -3,10 +3,10 @@
 # Git Commands
 
 ## Remote Repo
-1.Set a new remote
+1. Set a new remote
 `git remote add origin https://github.com/user/repo.git`
 
-2.Verify new remote
+2. Verify new remote
 `git remote -v`
 ## Branches
 
