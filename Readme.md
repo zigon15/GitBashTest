@@ -8,6 +8,11 @@
 
 2. Verify new remote
 `git remote -v`
+
+## Updating .gitignore Settings
+1. `git rm -r --cached .`
+2. `git add .`
+
 ## Branches
 
 Add New Branch command: `git checkout -b <branch name>`
