@@ -1,4 +1,4 @@
-** _Mainly for my reference, things might not do what I think they do_ **
+** _ DISCLAIMER:Mainly for my reference, things might not do what I think they do_ **
 # Git Commands
 
 ## Branches
