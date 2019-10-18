@@ -25,7 +25,7 @@ done
 cd "G:\2-Computer Coding\Git Test"
 
 #Set text colour to yellow
-echo -e "\033[0;33m"
+echo -e "\033[0;92m"
 
 #Add all files that have been change to staging
 git add .
