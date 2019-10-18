@@ -6,7 +6,7 @@ then
     echo "Commit Mesage invalid"
     exit;
 else
-    echo -e "Commit Message: \033[0;32m$CommitMsg\033[0;37m"
+    echo -e "Commit Message: \033[0;32m$CommitMsg\033[0;39m"
 fi
 
 CurrentGitBranch="$(git branch | grep \* | cut -d ' ' -f2)"
@@ -24,6 +24,9 @@ done
 
 cd "G:\2-Computer Coding\Git Test"
 
+#Set text colour to yellow
+echo -e "\033[0;33m"
+
 #Add all files that have been change to staging
 git add .
 
@@ -32,3 +35,6 @@ git commit -m "$CommitMsg"
 
 #Push the commit to the remote repo
 git push
+
+#set text colour back to default colour
+echo -e "\033[0;39m"
