@@ -1,4 +1,4 @@
-**DISCLAIMER: _Mainly for my reference, things might not do what I think they do_**
+**DISCLAIMER: _Mainly for my reference, use at your own risk_**
 
 # Git Commands
 
