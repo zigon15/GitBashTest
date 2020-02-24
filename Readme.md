@@ -9,6 +9,9 @@
 2. Verify new remote
 `git remote -v`
 
+3. Remove remote
+`git remote rm "remoteName"`
+
 ## Updating .gitignore Settings
 1. `git rm -r --cached .`
 2. `git add .`
@@ -35,8 +38,9 @@ To make git track all new files
 `git add .`
 
 ## Push
-Make sure to add upstream branch for git to push to
+Make sure to add upstream branch for git to push to: 
 `git push --set-upstream <repo name> <branch>`
+i.e. `git push --set-upstream origin master>`
 
 Push commit to remote repo
 `git push`
