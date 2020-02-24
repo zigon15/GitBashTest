@@ -40,6 +40,7 @@ To make git track all new files
 ## Push
 Make sure to add upstream branch for git to push to: 
 `git push --set-upstream <repo name> <branch>`
+
 i.e. `git push --set-upstream origin master>`
 
 Push commit to remote repo
