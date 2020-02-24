@@ -1,5 +1,8 @@
 #Stores the commit message
 CommitMsg=$1
+GitDir=$2
+
+cd "$GitDir"
 
 if [ -z "$CommitMsg" ]
 then
@@ -21,8 +24,6 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
-
-cd "G:\2-Computer Coding\Git Test"
 
 #Set text colour to yellow
 echo -e "\033[0;92m"
