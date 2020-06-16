@@ -6,10 +6,13 @@
 1. Set a new remote
 `git remote add origin https://github.com/user/repo.git`
 
-2. Verify new remote
+2. Do the initial commit
+`git commit -m 'Initial Commit'`
+
+3. Verify new remote
 `git remote -v`
 
-3. Remove remote
+4. Remove remote
 `git remote rm "remoteName"`
 
 ## Updating .gitignore Settings
