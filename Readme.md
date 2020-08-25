@@ -2,7 +2,7 @@
 
 # Git Commands
 
-## Remote Repo
+## Remote Repo (If the remote is empty)
 1. Set a new remote
 `git remote add origin https://github.com/user/repo.git`
 
@@ -14,6 +14,9 @@
 
 4. Remove remote
 `git remote rm "remoteName"`
+
+## Remote Repo (Exsiting code)
+`git clone <repo url>`
 
 ## Updating .gitignore Settings
 1. `git rm -r --cached .`
